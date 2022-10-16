@@ -1,0 +1,18 @@
+.mainButton {
+  font-family: $font;
+  font-weight: normal;
+  font-size: 18px;
+  color: #2E2E2E;
+  padding: 21px 64px;
+  border-radius: 10px;
+  background-color: $accentColor;
+}
+.secondaryButton {
+  font-family: $font;
+  font-weight: normal;
+  font-size: 18px;
+  color: #2E2E2E;
+  padding: 21px 55px;
+  border-radius: 10px;
+  background-color: $secondaryColor;
+}

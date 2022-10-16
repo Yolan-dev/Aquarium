@@ -1,0 +1,9 @@
+.mainScreen {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../img/main_image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 0;
+}
