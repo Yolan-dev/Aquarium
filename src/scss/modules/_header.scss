@@ -11,5 +11,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    padding: 20px 0; // sverhu i snizu vnutrenniy otstup 20px, a sleva i sprava on ne nuzhen
+  }
+  &__navigation {
+    // cherez nego mi kontroliruem polozhenie blocka
+    margin: 0 auto;
   }
 }

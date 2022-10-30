@@ -1,10 +1,21 @@
 .navigation {
   display: flex;
   flex-wrap: nowrap;
-  width: 65%;
-  justify-content: center;
-  font-family: $font;
-  font-weight: 600;
-  color: #fff;
-  font-size: 18px;
+  // width: 65%;
+  justify-content: space-around;
+  // align-items: center;
+
+  &__item {
+    // tut reguliruesh rasstoyanie cherez etot element
+    &:not(:first-child) {
+      margin-left: 30px;
+    }
+  }
+  &__link {
+    // stili textu zadaesh ne bloku a imenno textovim elementam
+    font-family: $font;
+    font-weight: normal;
+    color: #fff;
+    font-size: 18px;
+  }
 }
