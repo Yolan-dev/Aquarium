@@ -2,19 +2,15 @@
   width: 100%;
   position: absolute;
   z-index: 1;
-  top: 0;
-  left: 0;
-  right: 0;
 
   &__container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 20px 0; // sverhu i snizu vnutrenniy otstup 20px, a sleva i sprava on ne nuzhen
+    padding: 45px 0; // sverhu i snizu vnutrenniy otstup 20px, a sleva i sprava on ne nuzhen
   }
   &__navigation {
-    // cherez nego mi kontroliruem polozhenie blocka
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
